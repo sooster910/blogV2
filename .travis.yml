@@ -14,20 +14,6 @@ before_script:
 
 script: bundle exec rake site:deploy --quiet #--trace
 
-
-
-username: sooster910
-repo: blogV2
-# username : travis-ci와 연동하는 github의 username
-# repo: travis-ci와 연동하는 github의 repository이름
-# https://github.com/<username>/<repository>
-
-branch: master
-# 사용할 branch명
-
-relative_source:
-
-destination: ./output/
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
 # gem install travis
@@ -35,7 +21,7 @@ destination: ./output/
 # travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
 env:
   global:
-    secure: "X0pHdXjIRMXlvOaLlU84meaINy/fvWfjopoxSgQGZUlnkb67ffQvYw2n/WoxcDXSk1pbpdR1W4s523gl1fLeqG4kFsH4KGn3tcyGnCpcBGh/YEWKNjK9930NUJwsvAVoJhlBIyLE8O3RQt6JfUwgHpFnqPOH7eF3GVpjAxLMAouVlJEO62jlhzG1mUMwMbIdnfhnxgMbgpKST/NJyZUFW2qlwBUO55/kEtBBxuy1fyQ/SU1uGr1K5eYDOdyCcf7+iEDggzx8D+NCwDizgcULGWzapL6MgP5aoj17EVuXlX4KBOlk6eToEw3Lya2678TXhNsB9/FInnNTzlGHOVPAn7nJkyhdNZ65ACoXJaNuzpCk8Xx8lhJkIzElERPhj//q/dYhYRimART6H+WbwHVIq9sl/+zy2VO9z6mBbk7DyNALw7Ujem0D+p1azqPIm+Ri5pKMNyTC1S0lmCPKKe0vAHM7vKITRDGbeOjc+ufyGU6GWCJnVN/jQ5+NCWvgAZbACTbqiuPtE05rRtQ3STEeJK0HwUCB44YyFNZJ2vj7XKaNIv3isOM7xCWqR8ddHZZgwdDBheyi4yfqyDQSi3Z0AQUdPfONQ8lWeiLa8D3jujDic33XiwRfhfbV9zmFZwd8kJhuM0cnRRtQmgsK6nNWPIR6Vh6MXWweaOQJ4J5d4o="
+    secure: "i3kSLaai2+ChtETy7U4532FLPQnpkGgE2+Er866xZaw5ObBqGC5mkP/NLqL/RkDLu7mdt4k76J3tEc1IkxakVAXQsHNJ/yQHKj+Niq1eVMOPfvhZA0RCgTIMhRiOWNDLonCl0rKdzuLkG5LqW9zm93pV8wZQoBg4U3PjevJzqioeIXo2E3HRg52kKH1izO7J3eGEQpKG2YbJId9WlG++CkfRBtXGiFg++3hnmV8xtLeavFsBjO835S7S9ptdPaq3NVAKmROX1FRufLzU0oJU2Am5QbG0ovN4ymSZ45W6Nsij0cgvOnsWjzD0vi1dHtMy6BQ35TwG4cIwREhLsKoJBhA2UWx2FMIWAS2mfBjRMYENf57EOgWHwgMzHwONE0sbsG7pLPChu5KceTx1lCPJb2caogL2OY6/cPJYRmXHN+fEi/9EHMQbHkoopf8g7BLrDdHpObhNFhR1r8pecrvzqULqgLuF5aVzPJxXakBemEsiUAc491ZFh9tI4SYsosw8OvdbQV726GRKOR+BgNF9xUlMDz3R6kEEAqxMSnawMYaR5D498pHB6zQBy6d8kBg4FbNhdZM4LAl8jMkmliq7vMvx0mCLi/hkYHwl2xksVJextTDTtidbqqsnD9qrqJdBqlL3RiCk32iSsnp8XDV6f7Ax7S9or3ZU4d2Ql4brRgU="
 branches:
   only:
     - master
