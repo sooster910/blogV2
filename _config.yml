@@ -38,7 +38,18 @@ dash:
   animation_speed: 50
 
 # Build settings
-# theme: jekyll-dash
+theme: jekyll-dash
+
+ url: https://sooster910.github.io
+
+ source_url : https://github.com/sooster910/blogV2
+ production_rul: https://sooster910.github.io
+ destination: ./output/
+
+ #Travis-CI setting
+    username: sooster910
+    repo:blogV2
+
 
 plugins:
  - jekyll-feed
