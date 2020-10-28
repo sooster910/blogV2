@@ -38,18 +38,15 @@ dash:
   animation_speed: 50
 
 # Build settings
-theme: jekyll-dash
-
- url: https://sooster910.github.io
-
- source_url : https://github.com/sooster910/blogV2
- production_url: https://sooster910.github.io/
- destination: ./output/
-
- #Travis-CI setting
-    username: sooster910
-    repo: blogV2
-
+  theme: jekyll-dash
+url: https://sooster910.github.io
+source_url : https://github.com/sooster910/blogV2
+production_url: https://sooster910.github.io/
+destination: ./output/
+   
+#Travis-CI setting
+username: sooster910
+repo: blogV2
 
 plugins:
  - jekyll-feed
@@ -58,26 +55,10 @@ plugins:
  - liquid-md5
  - jekyll/tagging
 
+
+
+ 
+
 # Replaces the default avatar provider (gravatar)
 #avatar_source: github
 #github_username: bitbrain
-exclude:
-  - README.md
-- Rakefile
-- Gemfile
-- Gemfile.lock
-- changelog.md
-- "*.Rmd"
-- vendor
-- .travis.yml
-- node_modules
-- assets/css
-- assets/images
-- _posts/angular
-- _posts/et-cetera
-- _posts/python
-- _posts/typescript
-#  - _posts/jekyll
-- _posts/iot
-- _posts/r
-- _posts/economy
