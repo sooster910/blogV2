@@ -14,6 +14,20 @@ before_script:
 
 script: bundle exec rake site:deploy --quiet #--trace
 
+
+
+username: sooster910
+repo: blogV2
+# username : travis-ci와 연동하는 github의 username
+# repo: travis-ci와 연동하는 github의 repository이름
+# https://github.com/<username>/<repository>
+
+branch: master
+# 사용할 branch명
+
+relative_source:
+
+destination: ./output/
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
 # gem install travis
@@ -32,23 +46,5 @@ branches:
     #     github-token : $GITHUB_TOKEN
     #         on:
     #             branch: master
-    exclude:
-    - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
-  - node_modules
-  - assets/css
-  - assets/images
-  - _posts/angular
-  - _posts/et-cetera
-  - _posts/python
-  - _posts/typescript
-#  - _posts/jekyll
-  - _posts/iot
-  - _posts/r
-  - _posts/economy
+
+
