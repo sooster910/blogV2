@@ -110,13 +110,13 @@
 .post {
   margin-bottom: 2em;
   .post-date {
-    margin-top: 1em;
+    // margin-top: 1em;
     @include themed() {
        color: t('foreground-color-alt');
     }
     font-size: 12px;
-    margin-top: 1em;
-    margin-left: 0.5em;
+    // margin-top: 1em;
+    // margin-left: 0.5em;
   }
 
   strong {
@@ -215,7 +215,7 @@
    text-align: left;
    & > a {
      display: inline-block;
-     margin: 0.3em 0.3em 0.3em 0;
+    //  margin: 0.3em 0.3em 0.3em 0;
    }
  }
 
@@ -225,7 +225,8 @@
   @include themed() {
      background-color: t('background-color');
   }
-  padding: 0.3em 0.6em;
+  margin-right: 3px;
+  // padding: 0.3em 0.6em;
   border-radius: 0.3em;
   &:hover {
     text-decoration: none;
@@ -244,7 +245,7 @@
 
 .tag {
   display: inline-block;
-  margin: 0.3em 0.3em 0.3em 0;
+ // margin: 0.3em 0.3em 0.3em 0;
 }
 
 .post-tags {

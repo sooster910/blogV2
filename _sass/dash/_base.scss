@@ -35,6 +35,16 @@ ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 3;
 }
+h1,h2{
+  border-bottom: 1px solid #dadada;
+}
+
+h1{
+  padding-bottom: 20px;
+}
+h2{
+  padding-bottom: 12px;
+}
 
 p {
   margin: 0.5em 0;
