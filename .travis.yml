@@ -8,6 +8,7 @@ install:
   # Install Jekyll and dependencies
   - bundle install
 
+
 before_script:
   - git config --global user.email "hs9880@gmail.com"
   - git config --global user.name "Hyunsu Joo"
@@ -26,11 +27,6 @@ branches:
   only:
     - master
 
-    # deploy:
-    #     provider : pages
-    #     skip-cleanup: true 
-    #     github-token : $GITHUB_TOKEN
-    #         on:
-    #             branch: master
+
 
 

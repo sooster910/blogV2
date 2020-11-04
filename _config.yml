@@ -38,7 +38,7 @@ dash:
   animation_speed: 50
 
 # Build settings
-  theme: jekyll-dash
+theme: jekyll-dash
 url: https://sooster910.github.io
 source_url : https://github.com/sooster910/blogV2
 production_url: https://sooster910.github.io/
@@ -55,8 +55,8 @@ plugins:
  - liquid-md5
  - jekyll/tagging
 
-
-
+ exclude:
+  - _posts/2020-11-1-Nodejs1.md
  
 
 # Replaces the default avatar provider (gravatar)
