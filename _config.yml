@@ -55,8 +55,8 @@ plugins:
  - liquid-md5
  - jekyll/tagging
 
- exclude:
-  - _posts/2020-11-1-Nodejs1.md
+exclude:
+ - _posts/2020-11-1-Nodejs1.md
  
 
 # Replaces the default avatar provider (gravatar)
