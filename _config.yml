@@ -57,6 +57,7 @@ plugins:
 
 exclude:
  - _posts/2020-11-1-Nodejs1.md
+ - _posts/2020-10-15-travisCI.md
  
 
 # Replaces the default avatar provider (gravatar)
