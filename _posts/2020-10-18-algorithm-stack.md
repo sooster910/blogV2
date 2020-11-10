@@ -2,7 +2,7 @@
 layout: post
 title:  "[JS DataStructure] Stack"
 description:  Stack이 뭔가요? 
-tags: JS DataStructure Stack 
+tags: JS DataStructure/Algorithm Stack 
 ---
 
 ## Stack 
