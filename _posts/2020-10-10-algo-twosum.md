@@ -50,7 +50,7 @@ for loop에서 i=0 일 때, j loop을 한번 씩 더 돌게 하여, array안에 
 
 
 ### 2. A better time complexity solution with Hash Map- O(n) 
-loop을 일단 한번 만 돌릴 수 있는 방법을 생각했다. 
+일단 nested loop을 사용하지 않는 방법을 생각했다.   
 첫번 째 인덱스의 값인 (arr[0]), 2 부터 시작하여 매칭하는 값과 더하여 9가 나오는 과정을 생각하니, lookup을 하게 되므로 Map객체를 이용하는게 효율적이라 한다.
 
 ![image](/assets/twosum2.jpg)
@@ -64,9 +64,11 @@ Map 객체에 x 의 값인 7 이 있는지 확인한다. 만약 7이 없다면 M
 ```javascript
 
 
-const map = new Map();
+
 
 const getTwoSum = (arr, target) => {
+    const map = new Map();
+
     for(let i =0; i<arr.length; i++){
         let currentValue = arr[i];
 

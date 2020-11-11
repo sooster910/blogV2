@@ -6,7 +6,7 @@
 
   font-family: $syntax-font-family;
   line-height: $syntax-line-height;
-  font-weight: 600;
+  font-weight: 400;
 
   .c     { color: lighten($color-background-dark, 30%);} // Comment
   .err   { color: #a61717; } // Error
