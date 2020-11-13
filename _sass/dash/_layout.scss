@@ -343,8 +343,7 @@ ul.related-posts {
     }
 
     &:before {
-      content: $icon-flask;
-      @include font-awesome-icon;
+      content: '🚀';
       color: $color-green;
       margin-right: 0.5em;
     }
