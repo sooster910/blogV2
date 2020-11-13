@@ -2,7 +2,7 @@ title: Hyunsu
 author: Hyunsu Joo
 email: hyunsujoo0609@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Hi 👋  Front End Developer with an passion about JavaScript Node.js MongoDB.
+  Hi 👋  Front End Developer with an passion about JavaScript, Node.js, MongoDB.
   Interested in building a web app real-time and bidirectional communication.
 show_excerpts: false # set to true to show excerpts on the homepage
 paginate: 5
@@ -23,12 +23,10 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    - url: https://twitter.com/bitbrain_
-      icon: twitter-square
-      color: cyan
-    - url: https://bitbrain.itch.io
+  
+    - url: https://www.linkedin.com/in/hyunsu-joo/
       icon: linkedin
-      color: red
+      color: indigo
     - url: https://github.com/sooster910
       icon: github-square
       color: purple
@@ -58,6 +56,9 @@ plugins:
 exclude:
  - _posts/2020-11-1-Nodejs1.md
  - _posts/2020-10-15-travisCI.md
+ - _posts/2020-11-1-Nodejs1.md
+ - _posts/2020-10-04-socketio.md
+ - _posts/2020-10-20-passport.md
  
 
 # Replaces the default avatar provider (gravatar)

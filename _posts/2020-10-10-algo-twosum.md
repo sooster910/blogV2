@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Two Sum - LeetCode"
+title:  "[DataStructure/Algorithm] Two Sum - LeetCode"
 description: 
 tags: DataStructure/Algorithm JS
 ---
