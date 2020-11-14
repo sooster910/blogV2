@@ -1,5 +1,7 @@
 ---
+
 layout: post
+comments: true
 title:  "[DataStructure/Algorithm] JavaScript Recursive 재귀 알고리즘 제대로 이해하기 [1]"
 tags:  JavaScript DataStructure/Algorithm resursion
 ---
