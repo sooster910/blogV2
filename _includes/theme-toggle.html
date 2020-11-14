@@ -1,4 +1,4 @@
-<div class="toggleWrapper">
+<div class="toggleWrapper" style="display:none">
     <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()"/>
     <label for="theme-toggle" class="toggle">
     <span class="toggle__handler">
@@ -15,7 +15,7 @@
     </label>
 </div>
 <script type="text/javascript">
-const theme = localStorage.getItem('theme');
+const theme = "light";
 
 if (theme === "light") {
     document.documentElement.setAttribute('data-theme', 'light');
@@ -54,6 +54,7 @@ if (theme === "dark") {
 
 function modeSwitcher() {
 	let currentMode = document.documentElement.getAttribute('data-theme');
+    console.log('currentMode',curentMode)
 	if (currentMode === "dark") {
 	    activateLightTheme();
 	} else {

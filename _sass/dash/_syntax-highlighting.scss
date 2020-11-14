@@ -36,7 +36,7 @@
   .m     { color: $color-orange } // Literal.Number
   .s     { color: $color-green; } // Literal.String
   .n     { color: $color-foreground; }
-  .na    { color: $color-foreground; } // Name.Attribute
+  .na    { color: #ffa62b; } // Name.Attribute
   .nb    { color: $color-foreground } // Name.Builtin
   .nc    { color: $color-pink; } // Name.Class
   .no    { color: $color-foreground } // Name.Constant
