@@ -5,8 +5,6 @@ title:  "[DataStructure/Algorithm] JavaScript Recursive 재귀 알고리즘 제�
 tags:  JavaScript DataStructure/Algorithm resursion
 ---
 
-
-* 알고리즘을 공부할 때 마다, 재귀함수가 중요하고 널리 쓰인다는건 알았지만, 제대로 이해가 되지 않았다. 그래서 이 기회에 제대로 이해하기 위해 또한 좀 더 재귀를 잘 이해하고자 하는 분들을 위해 작성하게 되었다.
 * 오타나 설명이 잘 못되었다거나 보충설명이 필요하시다고 생각되시면 댓글 남겨 주세요 언제든지 환영입니다 😄
 
 
