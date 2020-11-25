@@ -36,7 +36,7 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 3;
 }
 h1,h2{
-  border-bottom: 1px solid #dadada;
+  border-bottom: 1px solid rgb(226, 232, 240);
 }
 
 h1{
@@ -47,7 +47,9 @@ h2{
 }
 
 p {
-  margin: 0.5em 0;
+  line-height: 1.625;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 figure {
@@ -166,8 +168,9 @@ code {
   @include relative-font-size(0.9375);
   border-radius: 0.3em;
   @include themed() {
-     background-color: #f5f2f0;
-     color: #3f3f3f;;
+      background-color: #f5f2f0;
+    //  background-color:rgb(247, 250, 252);
+     color: #3f3f3f;
      font-family: Menlo,Nanum Gothic Coding,Monaco,Source Code Pro,monospace,Microsoft YaHei !important;
   }
 }

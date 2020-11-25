@@ -99,6 +99,7 @@ sum(3)
 ### 2. 새로운 input
 나머지 한가지는, 재귀함수를 호출 할 땐, 다른 parameter(input, argument)를 넣어야 한다. 만약 같은 값으로 넣게되면 리턴하는 값도 같아져서 결국 maximum callstack exceeded  에러를 만나게 될 것이다.
 
+### 3. Resursion 에서 
 다음 포스트에선 재귀알고리즘을 푸는 접근법과 다양한 예제를 설명할 것이다. 
 
 ---
