@@ -7,13 +7,13 @@ tags: DataStructure Array staticArray dynamicArray
 * 자료구조 Array를 공부하며 남긴 글입니다. 오타나 설명이 잘 못되었다거나 조금 더 보충설명이 필요하시다고 생각되시면 댓글 남겨 주세요 언제든지 환영입니다 😄
 
 ## 목차
- [1. Array](#1.-Array)\
- [2. Static Array vs Dynamic Array ](#2.-Static-Array-vs-Dynamic-Array)\
-&nbsp;[2.1. Access](#2.1-Access)\
-&nbsp;[2.2. Append](#2.2-Appending)\
-&nbsp;[2.3. Insertion](#2.3-Insertion)\
-&nbsp;[2.4. Deletion](#2.4-Deletion)\
-&nbsp;[2.5. Time Complexity](#2.5-Time-Complexity)
+ [1. Array](#1-array)\
+ [2. Static Array vs Dynamic Array ](#2-static-array-vs-dynamic-array)\
+&nbsp;[2.1. Access](#21-access)\
+&nbsp;[2.2. Append](#22-appending)\
+&nbsp;[2.3. Insertion](#23-insertion)\
+&nbsp;[2.4. Deletion](#24-deletion)\
+&nbsp;[2.5. Time Complexity](#25-time-complexity)
 
 
 ## 1. Array
@@ -68,7 +68,7 @@ Java의 ArrayList, C++ std의  vector, python의 list 와 같은 동적배열이
 그 이유는 삭제시 어떤 요소도 움직이지 않아도 되기 때문이다. 최악의 경우는 맨앞의 요소를 삭제 할때이다. 인덱스가 0인 요소가 삭제시 나머지 뒤에 있는 모든 요소들이 인덱스를 한칸 씩 앞으로 당겨 인덱스 0인 공간을 채워줘야 한다. 모든 인덱스가 움직이는데 드는 시간복잡도는 O(n)라 볼 수 있다. 
 
 
-### 2.5 Complexity
+### 2.5 Time Complexity
 
 |   |  static array | dynamic array  |
 |---|---|---|
