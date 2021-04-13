@@ -7,16 +7,16 @@ tags: DataStructure Array staticArray dynamicArray
 * 자료구조 Array를 공부하며 남긴 글입니다. 오타나 설명이 잘 못되었다거나 조금 더 보충설명이 필요하시다고 생각되시면 댓글 남겨 주세요 언제든지 환영입니다 😄
 
 ## 목차
- [1. Array](#Array)\
- [2. Static Array vs Dynamic Array ](#Static-Array-vs-Dynamic-Array)\
-&nbsp;[2.1. Access](#Access)\
-&nbsp;[2.2. Append](#Appending)\
-&nbsp;[2.3. Insertion](#Insertion)\
-&nbsp;[2.4. Deletion](#Deletion)\
-&nbsp;[2.5. Time Complexity](#Time-Complexity)
+ [1. Array](#1.-Array)\
+ [2. Static Array vs Dynamic Array ](#2.-Static-Array-vs-Dynamic-Array)\
+&nbsp;[2.1. Access](#2.1-Access)\
+&nbsp;[2.2. Append](#2.2-Appending)\
+&nbsp;[2.3. Insertion](#2.3-Insertion)\
+&nbsp;[2.4. Deletion](#2.4-Deletion)\
+&nbsp;[2.5. Time Complexity](#2.5-Time-Complexity)
 
 
-## 1. Array 
+## 1. Array
 
 배열은 선형자료구조의 대표적인 예로써 지정한 배열의 크기만큼 연속된 메모리 공간을 할당 받는다.
 
