@@ -160,27 +160,33 @@
 
 
   & > blockquote {
+    // margin-top: 2em;
+    // margin-bottom: 1em;
+    // margin-left: 0.5em;
+    // font-style: italic;
+    // @include themed() {
+    //    color: t('quote-primary');
+    border-left: .25em solid #e8b500;
+    color: #6a737d;
+    padding: 0 1em;
+    margin-left: 1.28em;
     margin-top: 2em;
-    margin-bottom: 1em;
-    margin-left: 0.5em;
-    font-style: italic;
-    @include themed() {
-       color: t('quote-primary');
-    }
+    margin-bottom: 2em;
+    // }
 
     & > p {
         display: block;
-        padding-left: 3em;
+        // padding-left: 3em;
     }
 
-    &:before {
-      content: $icon-quote-right;
-      @include font-awesome-icon;
-      margin-right: -2em;
-      float: left;
+    // &:before {
+    //   content: $icon-quote-right;
+    //   @include font-awesome-icon;
+    //   margin-right: -2em;
+    //   float: left;
 
-      font-size: 2em;
-    }
+    //   font-size: 2em;
+    // }
 
     li {
       @include themed() {
