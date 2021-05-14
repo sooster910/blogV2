@@ -379,3 +379,13 @@ ul.related-posts {
         color: $color-yellow;
     }
 }
+/*
+* Table
+*/
+table{
+  border-collapse: collapse;
+}
+table, td, th {
+  border: 1px solid #dadada;
+  padding:5px 15px;
+}
