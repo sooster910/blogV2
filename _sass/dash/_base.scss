@@ -168,15 +168,17 @@ code {
   @include relative-font-size(0.9375);
   border-radius: 0.3em;
   @include themed() {
-      background-color: #f5f2f0;
+      // background-color: #f5f2f0;
     //  background-color:rgb(247, 250, 252);
-     color: #3f3f3f;
+    //  color: #3f3f3f;
      font-family: Menlo,Nanum Gothic Coding,Monaco,Source Code Pro,monospace,Microsoft YaHei !important;
   }
 }
 
 code {
   padding: 1px 5px;
+  color: #f6aa11;
+  background: #272822;
 }
 
 pre {

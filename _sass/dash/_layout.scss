@@ -227,19 +227,24 @@
  }
 
 .tag, .tag-cloud > a {
-  background: #f9f9f9;
-  color: $color-tagYellow;
-  @include themed() {
-     background-color: t('background-color');
-  }
+  background: #D8ACA2;
+  padding: 0px 3px;
+  margin-top: 4px;
+  // background: #f9f9f9;
+  color: #f9f9f9;
+  // @include themed() {
+  //    background-color: t('background-color');
+  // }
   margin-right: 3px;
   // padding: 0.3em 0.6em;
   border-radius: 0.3em;
   &:hover {
     text-decoration: none;
-    color: lighten($color-blue, 5%) !important;
+    // color: lighten($color-blue, 5%) !important;
+    color:#3f3f3f;
     @include themed() {
-       background-color: lighten(t('background-color'), 5%);
+      background-color: #eac8af;
+      //  background-color: lighten(t('background-color'), 5%);
     }
   }
 
