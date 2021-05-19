@@ -12,6 +12,7 @@ tag_permalink_style: pretty
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+
 # jekyll-dash date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 dash:
@@ -44,7 +45,12 @@ url: https://sooster910.github.io
 source_url : https://github.com/sooster910/blogV2
 production_url: https://sooster910.github.io/
 destination: ./output/
-   
+#syntax highlighter
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
 #Travis-CI setting
 username: sooster910
 repo: blogV2
