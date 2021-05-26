@@ -69,4 +69,3 @@ const bool : boolean = false;
 참고자료
 
 * [moon9342.github.io 님의 Jekyll 기반의 GitHub Page 생성(4) - rouge를 이용한 syntax highlighting](https://moon9342.github.io/jekyll-rouge){: target="_blank"}
-* [도서 - 정진욱, 타입스크립트 퀵스타트, 루비페이퍼 ]
