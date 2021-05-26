@@ -63,6 +63,7 @@ plugins:
  - jekyll/tagging
 
 exclude:
+ - _posts/2020-10-10-algo-twosum.md
  - _posts/2020-11-1-Nodejs1.md
  - _posts/2020-10-15-travisCI.md
  - _posts/2020-10-04-socketio.md
