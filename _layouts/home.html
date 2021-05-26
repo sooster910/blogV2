@@ -6,6 +6,7 @@ layout: default
 {% endunless %}
 {% assign posts_count = paginator.posts | size %}
 {% if posts_count > 0 %}
+{% include tagcloud.html %}
 <h1>Recent articles</h1>
     <div class="post-links">
       {% for post in paginator.posts %}
@@ -37,7 +38,7 @@ layout: default
 
     {% include pagination.html %}
 
-    {% include tagcloud.html %}
+    
 {% else %}
 <h2>no posts yet.</h2>
 {% endif %}
