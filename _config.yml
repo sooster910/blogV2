@@ -86,7 +86,7 @@ exclude:
 #github_username: bitbrain
 
 #Google Analytics
-google_analytics: "UA-197952130-1"
+google_analytics: UA-197952130-1
   # provider : "google-gtag", 
   # tracking_id :  
   # measurement_id  : "G-NK1MYVRDXR"
