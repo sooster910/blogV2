@@ -81,10 +81,9 @@ exclude:
 #github_username: bitbrain
 
 #Google Analytics
-analytics:
-  provider : "google-gtag",
-  google:
-    tracking_id :  "UA-197952130-1"
-    measurement_id  : "G-NK1MYVRDXR"
-    anonymize_ip  : false
-    stream_id: : "2623351309"
+googleAnalytics:
+  provider : "google-gtag", 
+  tracking_id :  "UA-197952130-1"
+  measurement_id  : "G-NK1MYVRDXR"
+  # anonymize_ip  : false
+  # stream_id: : "2623351309"
