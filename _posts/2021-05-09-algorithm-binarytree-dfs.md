@@ -18,20 +18,23 @@ tags: JavaScript DataStructure/Algorithm DFS
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2). Complete Binary (완전 이진 트리) - Full Binary Tree 이거나 leaf 노드의 경우 왼쪽 노드부터 채워져 있는 구조.  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3). Perfect Binary Tree (포화이진 트리 )- 모든 리프노드가 동일한 깊이/레벨.  
 &nbsp; &nbsp; 🔸 이진트리 순회  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1). 중위순회  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2). 전위순회  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1). 중위순회  (in order traversal)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2). 전위순회 (preorder traversal)  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3). 후위순회  
 
 2️⃣  이진탐색트리  
 3️⃣  균형트리(AVL트리, RedBlack)  
 4️⃣  이진힙 (최대힙, 최소힙)
 
-여기서 다룰 이야기는 이진트리 순회이며, 순회하는 방식엔 중위순회, 전위순회, 후위순회가 있다.  
+여기서 다룰 이야기는 이진트리 순회이며, 순회하는 방식엔 중위순회, 전위순회, 후위순회가 있다.
+
+![image](/assets/Binary-tree-traversal.png)
 
 부모가 출력되는 기준에 따라 나눈다.  
 전위순회(부모가 제일 먼저) 1-2-4-5-3-6-7  
 중위순회(부모가 중간에) 4-2-5-1-6-7-3  
 후위순회(부모가 제일 나중에) 4-5-2-6-7-3-1  
+
 
 ### **구현**
 #### 1. 전위순회
@@ -51,7 +54,7 @@ function solution(target){
     }
 }
 
-solution(7);
+solution(7); //1-2-4-5-3-6-7
 ```
 
 #### 2. 중위순회

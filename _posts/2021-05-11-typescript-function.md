@@ -192,7 +192,8 @@ let subtractNums= calType= (num1,num2)=>num1-num2;
 
 이 외에도 함수 파트에선 다룰 이야기들이 더 있다. 객체에서의 함수와 콜백함수는 interface와 tsconfig를 더 공부한 후에 정리한 내용을 포스팅 해야 할 것 같다. 
 
+---
+
 참고자료
 
 * [TypeScript 4.0 공식문서](https://www.typescriptlang.org/docs/){: target="_blank"}
-* [도서 - 정진욱, 타입스크립트 퀵스타트, 루비페이퍼 ]
