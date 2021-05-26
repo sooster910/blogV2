@@ -45,6 +45,10 @@ url: https://sooster910.github.io
 source_url : https://github.com/sooster910/blogV2
 production_url: https://sooster910.github.io/
 destination: ./output/
+
+
+  
+
 #syntax highlighter
 markdown: kramdown
 kramdown:
@@ -61,6 +65,7 @@ plugins:
  - jekyll-paginate
  - liquid-md5
  - jekyll/tagging
+ - 
 
 exclude:
  - _posts/2021-01-01-react-codeSplitting.md
@@ -81,10 +86,10 @@ exclude:
 #github_username: bitbrain
 
 #Google Analytics
-google_analytics:
+google_analytics: "UA-197952130-1"
   # provider : "google-gtag", 
-  tracking_id :  "UA-197952130-1"
-  measurement_id  : "G-NK1MYVRDXR"
+  # tracking_id :  
+  # measurement_id  : "G-NK1MYVRDXR"
  
   # anonymize_ip  : false
   # stream_id: : "2623351309"
