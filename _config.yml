@@ -63,8 +63,10 @@ plugins:
  - jekyll/tagging
 
 exclude:
- - _posts/2020-10-10-algo-twosum.md
+ - _posts/2021-01-01-react-codeSplitting.md
  - _posts/2020-11-1-Nodejs1.md
+ - _posts/2020-10-10-algo-twosum.md
+ - _posts/2020-03-01-react-render-series.md
  - _posts/2020-10-15-travisCI.md
  - _posts/2020-10-04-socketio.md
  - _posts/2020-11-01-socketio2.md
@@ -72,7 +74,6 @@ exclude:
  - _posts/2020-10-05-cluster.md
  - _posts/2020-10-23-webpack.md
  - _posts/2020-12-01-linkedList.md
- - _posts/2021-05-16-linkedList.md
  - _posts/2021-05-13-last-december.md
 
 # Replaces the default avatar provider (gravatar)
