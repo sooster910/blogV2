@@ -64,7 +64,16 @@ plugins:
 
 exclude:
  - _posts/2020-10-10-algo-twosum.md
-
+ - _posts/2020-11-1-Nodejs1.md
+ - _posts/2020-10-15-travisCI.md
+ - _posts/2020-10-04-socketio.md
+ - _posts/2020-11-01-socketio2.md
+ - _posts/2020-10-20-passport.md
+ - _posts/2020-10-05-cluster.md
+ - _posts/2020-10-23-webpack.md
+ - _posts/2020-12-01-linkedList.md
+ - _posts/2021-05-16-linkedList.md
+ - _posts/2021-05-13-last-december.md
 
 # Replaces the default avatar provider (gravatar)
 #avatar_source: github
