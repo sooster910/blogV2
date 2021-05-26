@@ -65,7 +65,7 @@ plugins:
  - jekyll-paginate
  - liquid-md5
  - jekyll/tagging
- - 
+
 
 exclude:
  - _posts/2021-01-01-react-codeSplitting.md
@@ -85,11 +85,3 @@ exclude:
 #avatar_source: github
 #github_username: bitbrain
 
-#Google Analytics
-google_analytics: UA-197952130-1
-  # provider : "google-gtag", 
-  # tracking_id :  
-  # measurement_id  : "G-NK1MYVRDXR"
- 
-  # anonymize_ip  : false
-  # stream_id: : "2623351309"
