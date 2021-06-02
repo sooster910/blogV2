@@ -11,7 +11,7 @@
   }
 
   .command_prompt {
-    color: $color-blue;
+    color: $color-teal;
     font-size: $base-font-size;
     margin-left: 0.1em;
 
@@ -227,11 +227,11 @@
  }
 
 .tag, .tag-cloud > a {
-  background: #D8ACA2;
+  // background: #D8ACA2;
+  background:none;
   padding: 0px 3px;
   margin-top: 4px;
-  // background: #f9f9f9;
-  color: #f9f9f9;
+  color: rgba(115, 250, 200, 0.8);
   // @include themed() {
   //    background-color: t('background-color');
   // }
@@ -243,7 +243,7 @@
     // color: lighten($color-blue, 5%) !important;
     color:#3f3f3f;
     @include themed() {
-      background-color: #eac8af;
+      // background-color: #eac8af;
       //  background-color: lighten(t('background-color'), 5%);
     }
   }
