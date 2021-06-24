@@ -81,6 +81,7 @@ exclude:
  - _posts/2020-12-01-linkedList.md
  - _posts/2021-05-13-last-december.md
  - _posts/2020-11-3-recursive.md
+ - _posts/2021-06-23-js2-optionalChaining.md
 
 # Replaces the default avatar provider (gravatar)
 #avatar_source: github
